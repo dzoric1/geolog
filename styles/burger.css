@@ -20,7 +20,7 @@
   }
 }
 
-.burger_bar {
+.burger__bar {
   position: absolute;
   left: 0;
   right: 0;
@@ -33,7 +33,7 @@
   transition: all 0.3s ease;
 }
 
-.burger_bar::before {
+.burger__bar::before {
   transition: all 0.25s;
   content: "";
   position: absolute;
@@ -45,7 +45,7 @@
   background-color: #000;
 }
 
-.burger_bar::after {
+.burger__bar::after {
   transition: all 0.25s;
   content: "";
   position: absolute;
@@ -57,15 +57,15 @@
   background-color: #000;
 }
 
-.burger_bar--close {
+.burger__bar--close {
   transform: rotate(45deg);
 }
 
-.burger_bar--close::before {
+.burger__bar--close::before {
   transform: rotate(90deg);
   top: 0;
 }
 
-.burger_bar--close::after {
+.burger__bar--close::after {
   opacity: 0;
 }

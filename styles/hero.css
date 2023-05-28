@@ -11,7 +11,7 @@
   }
 }
 
-.hero_text {
+.hero__text {
   background: rgba(139, 169, 79, 0.4);
   backdrop-filter: blur(7.5px);
   border-radius: 0px 20px 20px 0px;
@@ -21,13 +21,13 @@
 }
 
 @media screen and (max-width: 767px) {
-  .hero_text {
+  .hero__text {
     padding: 20px 0 20px 15px;
     /* background: rgba(23, 28, 11, 0.4); */
   }
 }
 
-.hero_title {
+.hero__title {
   margin: 0;
   font-family: "Kaisei HarunoUmi";
   font-weight: 700;
@@ -38,12 +38,12 @@
 }
 
 @media screen and (max-width: 767px) {
-  .hero_title {
+  .hero__title {
     font-size: 48px;
   }
 }
 
-.hero_subtitle {
+.hero__subtitle {
   margin: 0;
   font-size: 25px;
   line-height: 124%;
