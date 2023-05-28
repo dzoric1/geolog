@@ -1,0 +1,8 @@
+.page {
+  min-width: 320px;
+  max-width: 1350px;
+  margin: 0 auto;
+  font-family: "Century-Gothic", Arial, sans-serif;
+  box-sizing: border-box;
+  color: #000;
+}
