@@ -3,20 +3,8 @@
 @import url("./page.css");
 @import url("./root.css");
 @import url("./burger.css");
+@import url("./general.css");
 @import url("./header.css");
 @import url("./hero.css");
-
-.main_welcome {
-}
-.welcome {
-}
-.welcome_title {
-}
-.title {
-}
-.welcome_content {
-}
-.welcome_text {
-}
-.text {
-}
+@import url("./welcome.css");
+@import url("./about.css");
