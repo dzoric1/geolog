@@ -42,7 +42,6 @@
     </header>
 
     <main class="main">
-
       <section class="main__hero hero">
         <div class="hero__text">
           <h1 class="hero__title">“ГЕОЛОГ”</h1>
@@ -95,7 +94,6 @@
           </div>
         </div>
       </section>
-
     </main>
 
     <footer class="footer">
@@ -124,6 +122,39 @@
         </ul>
       </nav>
     </footer>
+
+    <div class="popup popup--opened">
+      <div class="popup__container">
+        <button class="popup__close" type="button" aria-label="Закрыть попап"></button>
+        <h2 class="popup__title">СНТ “ГЕОЛОГ”</h2>
+        <form class="popup__form" name="form-auth">
+          <h3 class="popup__form-title title">Авторизация</h3>
+          <label class="popup__fieldset">
+            Логин:
+            <input class="popup__form-input popup__form-input--email" type="email" name="login" required>
+          </label>
+          <label class="popup__fieldset">
+            Пароль:
+            <input class="popup__form-input popup__form-input--password" type="password" name="password" required>
+          </label>
+          <div class="popup__links-row">
+            <label class="popup__checkbox">
+              <input type="checkbox">
+              <span class="popup__checkmark"></span>
+              Запомнить меня
+            </label>
+            <a class="popup__forget-link" href="#">Забыл пароль</a>
+          </div>
+          <button class="popup__submit" type="submit">Войти</button>
+          <p class="popup__footer-text">
+            Нажимая на кнопку Войти, Вы добровольно даете
+            <a class="popup__footer-text-link" href="#">согласие</a>
+            на обработку Ваших персональных данных.
+          </p>
+        </form>
+      </div>
+    </div>
+
   </div>
 </body>
 <script src="./index.js"></script>
