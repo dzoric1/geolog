@@ -37,9 +37,21 @@
   color: #fff;
 }
 
+.hero__title--profile {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+}
+
 @media screen and (max-width: 767px) {
   .hero__title {
     font-size: 48px;
+    line-height: 100%;
+  }
+  .hero__title--profile {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
   }
 }
 
