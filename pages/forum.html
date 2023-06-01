@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./single-news.css">
-  <title>Новость</title>
+  <link rel="stylesheet" href="./forum.css">
+  <title>Форум</title>
 </head>
 
 <body class="root">
@@ -22,13 +22,13 @@
             <a class="header__nav-link" href="../index.html">Главная</a>
           </li>
           <li class="header__nav-item">
-            <a class="header__nav-link" href="#">Новости</a>
+            <a class="header__nav-link" href="./news.html">Новости</a>
           </li>
           <li class="header__nav-item">
-            <a class="header__nav-link" href="#">Документы</a>
+            <a class="header__nav-link" href="./documents.html">Документы</a>
           </li>
           <li class="header__nav-item">
-            <a class="header__nav-link" href="#">Контакты</a>
+            <a class="header__nav-link" href="./contacts.html">Контакты</a>
           </li>
           <li class="header__nav-item">
             <a class="header__nav-link" href="#">Форум</a>
@@ -42,20 +42,60 @@
     </header>
 
     <main class="main">
-      <section class="main__single-news single-news">
-        <a class="single-news__link" href="./news.html">Вернутся ко всем новостям</a>
-        <h2 class="single-news__title">ОБЩЕЕ СОБРАНИЕ ЧЛЕНОВ ТОВАРИЩЕСТВА</h2>
-        <img class="single-news__img" src="../assets/images/hero.jpg" alt="изображение статьи">
-        <p class="single__news-date">16.05.2023</p>
-        <p class="single__news-text">Являясь всего лишь частью общей картины, диаграммы связей и по сей день остаются
-          уделом либералов, которые жаждут быть представлены в исключительно положительном свете. В своём стремлении
-          повысить качество жизни, они забывают, что сложившаяся структура организации предоставляет широкие возможности
-          для первоочередных требований. Но перспективное планирование однозначно определяет каждого участника как
-          способного принимать собственные решения касаемо новых предложений. В целом, конечно, существующая теория
-          позволяет оценить значение новых принципов формирования материально-технической и кадровой базы. А также
-          предприниматели в сети интернет призывают нас к новым свершениям, которые, в свою очередь, должны быть
-          обнародованы.</p>
+
+      <section class="main__hero hero">
+        <div class="hero__text">
+          <h1 class="hero__title">Форум</h1>
+        </div>
       </section>
+
+      <section class="main__forum forum">
+        <div class="forum__header">
+          <h3 class="forum__header-title forum__header-title-name">Название темы</h3>
+          <p class="forum__header-title">Кол-во комментариев</p>
+          <p class="forum__header-title">Дата публикации</p>
+        </div>
+        <ul class="forum__list">
+          <li class="forum__list-item">
+            <a class="forum__list-link-wrapper" href="#">
+              <div class="forum__list-item-text">
+                <h4 class="forum__list-item-name">ОБЩЕЕ СОБРАНИЕ ЧЛЕНОВ ТОВАРИЩЕСТВА</h4>
+                <p class="forum__list-item-autor">
+                  <span class="forum__list-item-autor-span">Автор:</span>Иван
+                </p>
+              </div>
+              <p class="forum__list-item-count">5</p>
+              <p class="forum__list-item-date">16.05.2023</p>
+            </a>
+          </li>
+          <li class="forum__list-item">
+            <a class="forum__list-link-wrapper" href="#">
+              <div class="forum__list-item-text">
+                <h4 class="forum__list-item-name">ОБЩЕЕ СОБРАНИЕ ЧЛЕНОВ ТОВАРИЩЕСТВА</h4>
+                <p class="forum__list-item-autor">
+                  <span class="forum__list-item-autor-span">Автор:</span>Иван
+                </p>
+              </div>
+              <p class="forum__list-item-count">5</p>
+              <p class="forum__list-item-date">16.05.2023</p>
+            </a>
+          </li>
+          <li class="forum__list-item">
+            <a class="forum__list-link-wrapper" href="#">
+              <div class="forum__list-item-text">
+                <h4 class="forum__list-item-name">ОБЩЕЕ СОБРАНИЕ ЧЛЕНОВ ТОВАРИЩЕСТВА</h4>
+                <p class="forum__list-item-autor">
+                  <span class="forum__list-item-autor-span">Автор:</span>Иван
+                </p>
+              </div>
+              <p class="forum__list-item-count">5</p>
+              <p class="forum__list-item-date">16.05.2023</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+
     </main>
 
     <footer class="footer">
