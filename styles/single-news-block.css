@@ -50,7 +50,8 @@
 
 .single-news__img {
   width: calc(100%);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin: 0 0 20px 0;
 }
 

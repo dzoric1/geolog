@@ -5,7 +5,8 @@
   gap: 30px;
 }
 .profile__avatar {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-width: 240px;
   height: 100%;
 }
