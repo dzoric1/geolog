@@ -1,5 +1,5 @@
 .important {
-  padding: 50px 90px 215px 90px;
+  padding: 50px 35px 215px 35px;
 }
 
 @media screen and (max-width: 767px) {
@@ -54,7 +54,7 @@
 }
 
 .important__article {
-  background-color: #d9d9d9;
+  background-color: #f4f4f4;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
