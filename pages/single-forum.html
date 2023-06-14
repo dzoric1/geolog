@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./single-forum.css">
+  <title>Тема форума</title>
+</head>
+
+<body class="root">
+  <div class="page">
+
+    <header class="header">
+      <button type="button" class="burger">
+        <div class="burger__bar"></div>
+      </button>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="../index.html">Главная</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Новости</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Документы</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Контакты</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Форум</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__interactions">
+        <a class="header__tel-link" href="tel:+79999999999">+7 (999) 999-99-99</a>
+        <a class="header__profile-link" href="#">Войти в личный кабинет</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="main__single-forum single-forum">
+        <a class="single-forum__link" href="./forum.html">Вернутся ко всем темам</a>
+        <h2 class="single-forum__title">ОБЩЕЕ СОБРАНИЕ ЧЛЕНОВ ТОВАРИЩЕСТВА</h2>
+        <article class="single-forum__article">
+          <div class="single-forum__article-creator">
+            <img class="single-forum__article-img" src="../assets/images/test.jpg" alt="Аватар">
+            <p class="single-forum__article-creator-name">Иван Иванов</p>
+            <p class="single-forum__article-creator-title">Автор темы</p>
+            <p class="single-forum__article-data">№0 16.05.2023</p>
+          </div>
+          <div class="single-forum__article-body">
+            <p class="single-forum__article-text">Ясность нашей позиции очевидна: сложившаяся структура организации, в
+              своём классическом представлении, допускает внедрение своевременного выполнения сверхзадачи. Картельные
+              сговоры не допускают ситуации, при которой сторонники тоталитаризма в науке лишь добавляют фракционных
+              разногласий и указаны как претенденты на роль ключевых факторов. Господа, глубокий уровень погружения
+              однозначно фиксирует необходимость своевременного выполнения сверхзадачи. Значимость этих проблем
+              настолько очевидна, что повышение уровня гражданского сознания представляет собой интересный эксперимент
+              проверки соответствующих условий активизации. В частности, понимание сути ресурсосберегающих технологий
+              создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом
+              комплекса дальнейших направлений развития. В целом, конечно, сложившаяся структура организации не
+              оставляет шанса для переосмысления внешнеэкономических политик.</p>
+            <form class="single-forum__article-form">
+              <h3 class="single-forum__article-form-title">В какой возрастной категории Вы находитесь?</h3>
+              <fieldset class="single-forum__article-form-radio-wrapper">
+                <label>от 14 до 18 лет
+                  <input type="radio" name="vote" value="14-18">
+                  <span></span>
+                  <p class="single-forum__article-form-input-counter">14</p>
+                </label>
+                <label>от 18 до 35 лет
+                  <input type="radio" name="vote" value="18-35">
+                  <span></span>
+                  <p class="single-forum__article-form-input-counter">20</p>
+                </label>
+                <label>от 35 до 45 лет
+                  <input type="radio" name="vote" value="35-45">
+                  <span></span>
+                  <p class="single-forum__article-form-input-counter">5</p>
+                </label>
+                <label>от 45 до 60 лет
+                  <input type="radio" name="vote" value="45-60">
+                  <span></span>
+                  <p class="single-forum__article-form-input-counter">5</p>
+                </label>
+              </fieldset>
+              <button class="single-forum__article-form-submit" type="submit">Проголосовать</button>
+              <a class="single-forum__article-form-link" href="#">Посмотреть проголосовавших</a>
+            </form>
+          </div>
+        </article>
+        <div class="single-forum__comments">
+          <article class="single-forum__article single-forum__article--comment">
+            <div class="single-forum__article-creator">
+              <img class="single-forum__article-img" src="../assets/images/test.jpg" alt="Аватар">
+              <p class="single-forum__article-creator-name">Иван Иванов</p>
+              <p class="single-forum__article-data">№0 16.05.2023</p>
+            </div>
+            <div class="single-forum__article-body">
+              <p class="single-forum__article-text">Ясность нашей позиции очевидна: сложившаяся структура организации, в
+                своём классическом представлении, допускает внедрение своевременного выполнения сверхзадачи. Картельные
+                сговоры не допускают ситуации, при которой сторонники тоталитаризма в науке лишь добавляют фракционных
+                разногласий и указаны как претенденты на роль ключевых факторов. Господа, глубокий уровень погружения
+                однозначно фиксирует необходимость своевременного выполнения сверхзадачи.</p>
+            </div>
+          </article>
+          <article class="single-forum__article single-forum__article--comment">
+            <div class="single-forum__article-creator">
+              <img class="single-forum__article-img" src="../assets/images/test.jpg" alt="Аватар">
+              <p class="single-forum__article-creator-name">Иван Иванов</p>
+              <p class="single-forum__article-data">№0 16.05.2023</p>
+            </div>
+            <div class="single-forum__article-body">
+              <p class="single-forum__article-text">Ясность нашей позиции очевидна: сложившаяся структура организации, в
+                своём классическом представлении, допускает внедрение своевременного выполнения сверхзадачи. Картельные
+                сговоры не допускают ситуации, при которой сторонники тоталитаризма в науке лишь добавляют фракционных
+                разногласий и указаны как претенденты на роль ключевых факторов. Господа, глубокий уровень погружения
+                однозначно фиксирует необходимость своевременного выполнения сверхзадачи.</p>
+            </div>
+          </article>
+          <article class="single-forum__article single-forum__article--comment">
+            <div class="single-forum__article-creator">
+              <img class="single-forum__article-img" src="../assets/images/test.jpg" alt="Аватар">
+              <p class="single-forum__article-creator-name">Иван Иванов</p>
+              <p class="single-forum__article-data">№0 16.05.2023</p>
+            </div>
+            <div class="single-forum__article-body">
+              <p class="single-forum__article-text">Ясность нашей позиции очевидна: сложившаяся структура организации, в
+                своём классическом представлении, допускает внедрение своевременного выполнения сверхзадачи. Картельные
+                сговоры не допускают ситуации, при которой сторонники тоталитаризма в науке лишь добавляют фракционных
+                разногласий и указаны как претенденты на роль ключевых факторов. Господа, глубокий уровень погружения
+                однозначно фиксирует необходимость своевременного выполнения сверхзадачи.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <form class="single-forum__message message" name="message">
+        <button class="message__button message__button--download" type="button"></button>
+        <label class="message__label">
+          <input class="message__input search" type="text" placeholder="Написать сообщение" />
+          <button class="message__button message__button--photo" type="button"></button>
+          <button class="message__button message__button--smile" type="button"></button>
+        </label>
+        <button class="message__button message__button--send" type="submit"></button>
+      </form>
+    </main>
+
+    <footer class="footer">
+      <h2 class="footer__title">СНТ “ГЕОЛОГ”</h2>
+      <nav class="footer__nav">
+        <h4 class="footer__nav-title">Навигация</h4>
+        <ul class="footer__nav-list">
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">Главная</a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">Новости</a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">Документы</a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">Фотогалерея</a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">Контакты</a>
+          </li>
+          <li class="footer__nav-item">
+            <a class="footer__nav-link" href="#">Вакансии</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+    <div class="popup">
+      <div class="popup__container">
+        <button class="popup__close" type="button" aria-label="Закрыть попап"></button>
+        <h2 class="popup__title">СНТ “ГЕОЛОГ”</h2>
+        <form class="popup__form" name="form-auth">
+          <h3 class="popup__form-title title">Авторизация</h3>
+          <label class="popup__fieldset">
+            Логин:
+            <input class="popup__form-input popup__form-input--email" type="email" name="login" required>
+          </label>
+          <label class="popup__fieldset">
+            Пароль:
+            <input class="popup__form-input popup__form-input--password" type="password" name="password" required>
+          </label>
+          <div class="popup__links-row">
+            <label class="popup__checkbox">
+              <input type="checkbox">
+              <span class="popup__checkmark"></span>
+              Запомнить меня
+            </label>
+            <a class="popup__forget-link" href="#">Забыл пароль</a>
+          </div>
+          <button class="popup__submit" type="submit">Войти</button>
+          <p class="popup__footer-text">
+            Нажимая на кнопку Войти, Вы добровольно даете
+            <a class="popup__footer-text-link" href="#">согласие</a>
+            на обработку Ваших персональных данных.
+          </p>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
