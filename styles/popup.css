@@ -157,6 +157,7 @@
 }
 
 .popup__fieldset {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -177,6 +178,16 @@
   font-size: 20px;
   line-height: 25px;
   color: #959595;
+}
+
+.popup__input-error {
+  color: red;
+  font-size: 14px;
+  left: 0;
+  line-height: 1;
+  max-width: 100%;
+  position: absolute;
+  top: calc(100% + 2px);
 }
 
 .popup__links-row {
