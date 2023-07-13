@@ -50,51 +50,42 @@
       </section>
 
       <section class="main__forum forum">
-        <div class="forum__header">
-          <h3 class="forum__header-title forum__header-title-name">Название темы</h3>
-          <p class="forum__header-title">Кол-во комментариев</p>
-          <p class="forum__header-title">Дата публикации</p>
-        </div>
-        <ul class="forum__list">
-          <li class="forum__list-item">
-            <a class="forum__list-link-wrapper" href="./single-forum.html">
-              <div class="forum__list-item-text">
-                <h4 class="forum__list-item-name">ОБЩЕЕ СОБРАНИЕ ЧЛЕНОВ ТОВАРИЩЕСТВА</h4>
-                <p class="forum__list-item-autor">
-                  <span class="forum__list-item-autor-span">Автор:</span>Иван
-                </p>
-              </div>
-              <p class="forum__list-item-count">5</p>
-              <p class="forum__list-item-date">16.05.2023</p>
-            </a>
-          </li>
-          <li class="forum__list-item">
-            <a class="forum__list-link-wrapper" href="./single-forum.html">
-              <div class="forum__list-item-text">
-                <h4 class="forum__list-item-name">ОБЩЕЕ СОБРАНИЕ ЧЛЕНОВ ТОВАРИЩЕСТВА</h4>
-                <p class="forum__list-item-autor">
-                  <span class="forum__list-item-autor-span">Автор:</span>Иван
-                </p>
-              </div>
-              <p class="forum__list-item-count">5</p>
-              <p class="forum__list-item-date">16.05.2023</p>
-            </a>
-          </li>
-          <li class="forum__list-item">
-            <a class="forum__list-link-wrapper" href="./single-forum.html">
-              <div class="forum__list-item-text">
-                <h4 class="forum__list-item-name">ОБЩЕЕ СОБРАНИЕ ЧЛЕНОВ ТОВАРИЩЕСТВА</h4>
-                <p class="forum__list-item-autor">
-                  <span class="forum__list-item-autor-span">Автор:</span>Иван
-                </p>
-              </div>
-              <p class="forum__list-item-count">5</p>
-              <p class="forum__list-item-date">16.05.2023</p>
-            </a>
-          </li>
-        </ul>
+        <table class="forum__table">
+          <thead>
+            <tr class="forum__table-row">
+              <th>
+                <h3 class="forum__header-title forum__header-title-name">Название темы</h3>
+              </th>
+              <th>
+                <p class="forum__header-title">Кол-во комментариев</p>
+              </th>
+              <th>
+                <p class="forum__header-title">Дата публикации</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="forum__table-row">
+              <td>
+                <a href="./single-forum.html">
+                  <div class="forum__list-item-text">
+                    <h4 class="forum__list-item-name">ОБЩЕЕ СОБРАНИЕ ЧЛЕНОВ ТОВАРИЩЕСТВА</h4>
+                    <p class="forum__list-item-autor">
+                      <span class="forum__list-item-autor-span">Автор:</span>Иван
+                    </p>
+                  </div>
+                </a>
+              </td>
+              <td>
+                <p class="forum__list-item-count">5</p>
+              </td>
+              <td>
+                <p class="forum__list-item-date">16.05.2023</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </section>
-
 
     </main>
 
